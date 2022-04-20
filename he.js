@@ -19,9 +19,7 @@ client.on('ready', async() =>{
 });
 
 client.on('message', async(message) =>{
-    if(message.content.startsWith(config.prefix)){
-        message.channel.send(`หี`);
-    }
+    message.channel.send(`หี`);
 });
 
 
